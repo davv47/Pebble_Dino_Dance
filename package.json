@@ -1,0 +1,73 @@
+{
+    "author": "dfrench47@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "dancing-mouse",
+    "pebble": {
+        "displayName": "Dancing Mouse",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/dino_idle.png",
+                    "name": "DINO_IDLE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_arms_up.png",
+                    "name": "DINO_ARMS_UP",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_lean_left.png",
+                    "name": "DINO_LEAN_LEFT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_lean_right.png",
+                    "name": "DINO_LEAN_RIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_jump.png",
+                    "name": "DINO_JUMP",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_bow.png",
+                    "name": "DINO_BOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/dino_spin.png",
+                    "name": "DINO_SPIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "3daec12b-ae8b-44ee-9a0a-538ad907e6fa",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
