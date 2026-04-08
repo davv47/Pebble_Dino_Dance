@@ -2,9 +2,9 @@
     "author": "dfrench47@gmail.com",
     "dependencies": {},
     "keywords": [],
-    "name": "dancing-mouse",
+    "name": "dancing-dino",
     "pebble": {
-        "displayName": "Dancing Mouse",
+        "displayName": "Dancing Dino",
         "enableMultiJS": true,
         "messageKeys": [],
         "projectType": "native",
@@ -49,6 +49,13 @@
                 {
                     "file": "images/dino_spin.png",
                     "name": "DINO_SPIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/Dino_Icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
                     "targetPlatforms": null,
                     "type": "bitmap"
                 }

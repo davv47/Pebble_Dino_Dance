@@ -93,14 +93,14 @@ static void canvas_update_proc(Layer *layer, GContext *ctx) {
     NULL);
 
   // Button hint (tiny)
-  graphics_context_set_text_color(ctx, GColorDarkGray);
+  /*graphics_context_set_text_color(ctx, GColorDarkGray);
   graphics_draw_text(ctx,
     "UP \xe2\x80\xa2 MID \xe2\x80\xa2 DN",   // "UP · MID · DN" in UTF-8
     fonts_get_system_font(FONT_KEY_GOTHIC_09),
     GRect(0, bounds.size.h - 36, bounds.size.w, 12),
     GTextOverflowModeWordWrap,
     GTextAlignmentCenter,
-    NULL);
+    NULL);*/
 }
 
 // ── Animation tick ─────────────────────────────────────────────────────────────
